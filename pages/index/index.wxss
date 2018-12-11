@@ -1,0 +1,88 @@
+/**index.wxss**/
+.container{
+    height:100%;
+    position: relative;
+}
+.paging_box{
+    position: fixed;
+    bottom: 30rpx;
+    width: 100%;
+}
+.banner image{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.banner .music_img{
+    width: 420rpx;
+    height: 420rpx;
+    border-radius: 50%;
+}
+.content{
+    width: 600rpx;
+    margin: 100rpx auto 200rpx;
+}
+.banner{
+    position: relative;
+}
+.classify{
+    position:absolute;
+    width: 50rpx;
+    bottom: -66rpx;
+    left:30rpx;
+    font-size: 50rpx;
+}
+.first{
+    color: #fff;
+}
+.paging{
+    margin: 0 auto;
+    background: #f7f7f7; 
+    width: 600rpx;
+    height: 80rpx;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25rpx;
+    box-sizing: border-box;
+}
+
+.paging image{
+    width: 25rpx;
+    height: 38rpx;
+}
+.paging>view{
+    height: 100%;
+    line-height: 100rpx;
+    width: 80rpx;
+    text-align: center;
+}
+#play{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -60rpx 0 0 -60rpx; 
+    background: #fff;
+    line-height: 120rpx;
+    text-align: center;
+    box-shadow: 0 0 10rpx #888 inset;
+}
+.iconfont{
+    width: 100rpx;
+    font-size: 50rpx;
+    padding-left: 15rpx;
+}
+icon.icon-zanting-copy{
+    padding-left: 0;
+}
+.rotate{
+    animation: myrotate 10s infinite;
+    animation-timing-function: linear;
+}
+@keyframes myrotate{
+    from { transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}

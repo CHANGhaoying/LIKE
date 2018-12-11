@@ -1,0 +1,66 @@
+/* components/top/top.wxss */
+.top{
+    border-top: 1px solid #eee;
+    height: 100rpx;
+    display: flex;
+    justify-content: space-between;
+    line-height: 100rpx;
+    padding: 0 30rpx;
+}
+
+.date{
+    display: flex;
+    
+    justify-items: center;
+}
+.num{
+   padding-top: 8rpx;
+}
+.day{
+    font-size:55rpx;
+    padding-top: 3rpx;
+}
+.date_right{
+    line-height: 20rpx;
+    padding-top: 30rpx;
+    text-align: center;
+}
+.month{
+    font-size:25rpx;
+    
+}
+.year{
+    font-size:20rpx;
+}
+.line{
+    border-right: 1.8px solid #000;
+    height: 45rpx;
+    margin: 30rpx 15rpx 0 10rpx;
+
+}
+view.img{
+    display: flex;
+}
+.xin_box{
+    position: relative;
+    width: 100rpx;
+    text-align: center;
+}
+.xin_box text{
+    position: absolute;
+    line-height: 60rpx;
+    font-size:25rpx;
+    color: #aaa;
+    padding-left: 10rpx;
+}
+.xin{
+    width: 35rpx;
+    height: 32rpx;
+    
+}
+.share{
+    width: 32rpx;
+    height: 32rpx;
+    margin: 12rpx 0  0 80rpx;
+    padding-top: 20rpx;
+}

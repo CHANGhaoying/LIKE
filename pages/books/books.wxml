@@ -1,0 +1,16 @@
+<!--pages/books/books.wxml-->
+<view class='books'>
+    <view class='title'>精选</view>
+    <view class="books_list">
+        <view wx:for="{{list}}" wx:key="index">
+            <view>
+                <image src='{{item.image}}'/>
+                <view class='title_box'>
+                    <view class='books_title'>{{item.title}}</view>
+                    <view class='books_author'>{{item.author}}</view>
+                    <view class='books_like'>233喜欢 · 68短评</view>
+                </view>
+            </view>
+        </view>
+    </view>    
+</view>

@@ -1,0 +1,24 @@
+<!--components/top/top.wxml-->
+<view class="top">
+    <view class="date">
+        <text class="num">No.</text>
+        <text class="day">{{num}}</text>
+        <icon  class='line'/>
+        <view class="date_right">
+            <view class="month">{{month}}</view>
+            <text class="year">{{year}}</text>
+        </view>
+    </view>
+    <view class='img'> 
+        <view class="xin_box"  bindtap="like" >
+            <image src='./img/xin.png' class="xin" hidden='{{!status}}'/>
+            <image src='./img/1_04.png' class="xin" hidden='{{status}}'/>
+            <text>{{count}}</text>
+        </view>
+        <view>
+            <image src='./img/1.jpg' class="share" />
+        </view>
+        
+    </view>
+    
+</view>

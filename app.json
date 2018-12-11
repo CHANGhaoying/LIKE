@@ -1,0 +1,38 @@
+{
+    "pages": [
+        "pages/books/books",
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "光与影",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#c7c7c7",
+        "backgroundColor": "#fff",
+        "selectedColor": "#000",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "流行",
+                "iconPath": "images/fashion.jpg",
+                "selectedIconPath": "images/1_10.png"
+            },
+            {
+                "pagePath": "pages/books/books",
+                "text": "书单",
+                "iconPath": "./images/1_12.png",
+                "selectedIconPath": "images/book.jpg"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "喜欢",
+                "iconPath": "images/1_14.png",
+                "selectedIconPath": "images/like.jpg"
+            }
+        ]
+    }
+}

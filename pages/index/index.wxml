@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class="container">
+    <top 
+    count="{{data.fav_nums}}" 
+    status="{{data.like_status}}"
+    num="{{data.index}}"
+    year="{{year}}"
+    month="{{month}}"/>
+
+    <view class="banner">
+        <image src='{{data.image}}' 
+        class="{{data.type==200 ? 'music_img' : ''}} {{data.index==music_index && flag ? 'rotate' : ''}}"/>
+        <view class="classify">
+            <text class="{{data.type==200 ? '' : 'first'}}">
+            {{first}}</text>
+            <text>{{second}}</text>
+        </view>
+
+        <view id='play'
+        hidden='{{data.type==200 ? false : true}}'>
+            <icon class="iconfont icon-bofang play" 
+            hidden='{{data.index==music_index ? flag : false}}' 
+            bindtap='toplay'/>
+            <icon class="iconfont icon-zanting-copy play" 
+            hidden='{{data.index==music_index ? !flag : true}}' 
+            bindtap='topause'/>
+        </view>
+    </view>
+  
+  
+<view class="content">
+    <text>{{data.content}}。</text>
+</view>
+    
+  
+  <view class="paging_box">
+        <view class="paging">
+            <view bindtap="previous">
+                <image src="../../images/1_03.png" />
+            </view>
+            <text>{{data.title}}</text>
+            <view bindtap='next'>
+                <image src="../../images/1_05.png" />
+            </view>
+            
+        </view>
+  </view>
+</view>

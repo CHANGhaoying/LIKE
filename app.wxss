@@ -1,0 +1,5 @@
+/**app.wxss**/
+@import './assets/iconfont';
+page{
+    height: 100%;
+}
