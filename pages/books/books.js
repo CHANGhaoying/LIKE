@@ -31,8 +31,8 @@ Page({
      * 生命周期函数--监听页面初次渲染完成
      */
     onReady: function () {
-        console.log('git克隆')
-        console.log('git看不同')
+        console.log('git克隆/协作开发')
+        
     },
 
     /**
