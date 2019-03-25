@@ -33,6 +33,7 @@ Page({
     onReady: function () {
         console.log('git克隆')
         console.log('git看不同')
+        console.log('shishi试试')
     },
 
     /**
